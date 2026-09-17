@@ -31,7 +31,7 @@ const sistemaArchivo = require('fs');
 const ruta = require('path');
 
 // Importar las validaciones
-const validarAprendiz = require('./validaciones/validar');
+const validarAprendiz = require('../validaciones/validar');
 // Ruta del archivo listaDatos.json
 const rutaArchivoJson = ruta.join(__dirname, 'listaDatos.json');
 

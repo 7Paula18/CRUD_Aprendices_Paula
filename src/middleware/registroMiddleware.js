@@ -11,4 +11,3 @@ const registroMiddleware = (req, res, next) => {
 }
 
 module.exports = registroMiddleware
-
